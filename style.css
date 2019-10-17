@@ -112,22 +112,19 @@ section {
 
 main {
     display: grid;
-    margin: 0px;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 40vh);
-    grid-gap: 10px 10px;
-
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+    
 }
 
-main img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.box {
+    background-color: #4f4f4f;
+    padding: 130px;
+    margin: 20ox;
+}
 
+.box > img {
+    width:100%;    
 }
 
 /*  End  main
